@@ -1,2 +1,2 @@
 # learning-git
-this is a file beloning to main branch.
+this is a file belonging to main branch.
