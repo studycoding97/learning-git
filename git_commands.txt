@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=Kt3my1cxjgM&list=PL1w28LzkbaQHN-dlbK2FCdIcMwcbxsHz3&index=36
+
+======================================================
+
+commands to push or pull files from local to GitHub (repo) or vice-versa
+
+git init : creates empty repo in root directory of the project. (optional)
+git clone <repo link> : clones the repo to local.
+cd <copy the repo name> : to change the directory to repo name.
+git branch : to check total number of branches and active/selected branch.
+git checkout <branch name> : to change to another branch.
+git status : gives status of files in a current branch.
+git add . : to add new files or updates files from local to repo branch.
+git commit -m "mention message" : to commit the new changes in local.
+git push origin <branch name> : to push the changes from local to repo.
+git pull origin <branch name> : to pull the changes done on existing file from repo to local.
+git branch 
+git status
+git branch <branch name> : to create a new branch.
+git checkout -b <branch name> : to create a new branch and select it automatically.
+
+======================================================
+
+if a branch has been deleted from GitHub, but still is reflecting in gitbash (local git env), use below command to delete it from local
+
+1. if the changes from test1 branch has been merged to main branch, use below command to deleted the branch (test1) from gitbash (local git env)
+git branch -d test1 (here the branch should not be test1, it should be the brach to which changes from merged to)
+
+2. if the changes from test1 is not being merged to main branch, but still want to delete test1 branch, use below command
+git branch -D test1
+
+3. now check, if test1 branch has been deleted from gitbash (local git env)
+git branch
