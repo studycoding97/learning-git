@@ -1,8 +1,3 @@
 This is main branch file data.
 of "feature/Jaya-Prakash-01"
-<<<<<<< HEAD
-my name is not your name
-=======
-my name is
-yes yes yes
->>>>>>> 2d490c7216b83b17f3cff975e595afbd72a015b4
+hello all
