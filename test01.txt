@@ -1,3 +1,7 @@
 This is main branch file data.
 of "feature/Jaya-Prakash-01"
+<<<<<<< HEAD
 hello all whatsup
+=======
+my name is
+>>>>>>> 5414bd31e8bee20a6e49f6daa0ec9b3623a7bbf6
